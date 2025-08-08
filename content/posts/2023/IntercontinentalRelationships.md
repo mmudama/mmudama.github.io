@@ -1,10 +1,10 @@
 +++ 
-draft = true
+draft = false
 date = 2023-02-05T16:39:08-06:00
 title = "How (not) to build good working relationships"
 slug = "" 
 authors = []
-tags = ["soft skills", "relationship building", "trust"]
+tags = []
 categories = []
 externalLink = ""
 series = []

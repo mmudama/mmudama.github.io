@@ -1,11 +1,11 @@
 +++ 
-draft = true
+draft = false
 date = 2023-02-19T16:52:24-06:00
 title = "A master class in persuasion"
 description = ""
 slug = ""
 authors = []
-tags = ["soft skills"]
+tags = []
 categories = []
 externalLink = ""
 series = []
@@ -36,7 +36,7 @@ Over the course of our conversation, I learned a bit about Ben.  Before he retir
 
 I'm grateful that Ben took the time to talk to me. I think I possibly could have made it to Jackson - but it would have been a scary, lonely, exhausting drive. If I had been lucky, I would have slept in a hotel on the way; if I had been unlucky, I'd have been sleeping on the side of the road. Once mother nature brought the storm, I was never going to have the vacation I'd imagined - I just needed Ben to help me see it.
 
-Ben's Tools of Persuasion
+### Ben's Tools of Persuasion
 
 He changed my context. Ben literally invited me in from the cold. He gave me the opportunity to slow down and relax. If we'd been talking in 15*F (-10*C), I wouldn't have stopped long enough to listen.
 
