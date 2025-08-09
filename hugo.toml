@@ -50,7 +50,7 @@ style = "github-dark"
   name = "Email"
   icon = "fa fa-envelope fa-2x"
   weight = 1
-  url = "mailto:github-contact@bounceswoosh.org"
+  url = "mailto:monique@moniquemudama.com"
 [[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
