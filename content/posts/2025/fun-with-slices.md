@@ -15,8 +15,10 @@ When I first encountered Go, I found [slices](https://golangdocs.com/slices-in-g
 
 The answer, it turns out, is a bit complicated. 
 
+Also - this is very important - *everything I describe here also applies to slices*, not just arrays. If you create a slice from a slice, you will get exactly the same behavior. You can replace `[2]int{1, 2, 3}` with `[]int{1, 2, 3}` in this code and get the same results. So if you're thinking "This is neat and all, but I never use arrays" - 
 
-Okay, let's start with an array!
+
+That being said, let's start with an array!
 ```golang
 startingArray := [3]int{1, 2, 3}
 ```
@@ -98,7 +100,6 @@ If you use that conditional, make sure the code is [thread safe](https://en.wiki
 
 The idea that an append can quietly choose to either modify or copy the backing data, even though that data can be accessed through other variables, is profoundly weird to me. Every language has its gotchas. As a newbie coder, I learned to use a pointer and a length to pass around strings and arrays in C and C++; an off-by-one error meant clobbering the computer's memory. Debugging that code was so fun! Wait, I mean miserable. Debugging that code was miserable. Anyway, a reasonable person could go about using slices in Go for quite a while without ever noticing this behavior - until suddenly one day, things got real weird. I hope I've saved you from that fateful day.
 
-By the way, you get this same behavior even if you start with a slice instead of an array. A slice is always backed by an array, even if you didn't create the array explicitly. You can replace `[3]int{1, 2, 3}` with `[]int{1, 2, 3}` and get the same results.
 
 Thanks for reading.
 
