@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2025-08-21T17:44:24-06:00
+date = 2025-08-21T13:44:24-06:00
 title = "Fun With Golang Slices"
 description = "Slices will surprise you"
 slug = ""
