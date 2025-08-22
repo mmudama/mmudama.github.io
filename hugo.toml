@@ -46,11 +46,11 @@ style = "github-dark"
   author = "authors"
 
 # Social links
-[[params.social]]
-  name = "Email"
-  icon = "fa fa-envelope fa-2x"
-  weight = 1
-  url = "mailto:monique@moniquemudama.com"
+#[[params.social]]
+#  name = "Email"
+#  icon = "fa fa-envelope fa-2x"
+#  weight = 1
+#  url = "<email address>"
 [[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
