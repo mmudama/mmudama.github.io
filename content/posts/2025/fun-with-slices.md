@@ -11,7 +11,7 @@ externalLink = ""
 series = []
 +++
 
-When I first encountered Go, I found [slices](https://golangdocs.com/slices-in-golang) puzzling. You can create slices from a starting slice or array, and the new slice will be a pointer to a portion of the original data. Got it. But wait, you can also append to the new slice - how does that even work? The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/append) defines "append" as: "to add something to the end of a piece of writing." Code, writing, same thing. But if you're appending something to the new slice, what's happening to the original slice? If it's modified, does that mean you're appending to the new slice while overwriting a value in the old one? If so, then what happens when you append past the end of the old slice? How would THAT work?
+When I first encountered Go, I found [slices](https://golangdocs.com/slices-in-golang) puzzling. You can create slices from a starting slice or array, and the new slice will be a pointer to a portion of the original data. Got it. But wait, you can also append to the new slice - how does that even work? If you're appending something to the new slice, what's happening to the original slice? If it's modified, does that mean you're appending to the new slice while overwriting a value in the old one? If so, then what happens when you append past the end of the old slice? How would THAT work?
 
 The answer, it turns out, is a bit complicated. 
 
