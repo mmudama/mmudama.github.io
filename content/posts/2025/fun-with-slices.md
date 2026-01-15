@@ -100,9 +100,6 @@ By the way, everything I wrote here applies if you start with an array instead o
 
 Thanks for reading.
 
-<<<<<<< HEAD
-*This blog post was mentioned on the [Cup o' Go](https://cupogo.dev/) podcast, [episode 123](https://cupogo.dev/episodes/the-greatest-episode-of-all-time).”*
+*This blog post was mentioned on the [Cup o' Go](https://cupogo.dev/) podcast, [episode 123](https://cupogo.dev/episodes/the-greatest-episode-of-all-time).*
 
-=======
->>>>>>> 5ab54a9f0c315b751fe5dbcd9dddceecad1ee0ba
 [Full Code](https://github.com/mmudama/misc/blob/master/playground/fun-with-slices/slices.go)
