@@ -29,3 +29,90 @@ h2.info--xlarge {
   margin: 2.5rem auto 0;
   text-align: left;
 }
+
+.centered .about .home-posts ul {
+  margin: 3.2rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.centered .about .home-posts ul li {
+  display: flex !important; /* override inline-block social styling */
+  width: 100%;
+  margin: 1.6rem 0;
+  font-size: 1.8rem;
+  align-items: baseline;
+}
+
+.centered .about .home-posts .date {
+  display: inline-block;
+  flex: 0 0 20rem;
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.centered .about .home-posts .title {
+  font-size: 1.8rem;
+  flex: 1;
+  font-weight: 700;
+  margin: 0;
+  text-transform: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .centered .about .home-posts ul li {
+    display: block !important;
+    margin: 1.6rem 0;
+  }
+
+  .centered .about .home-posts .date {
+    display: block;
+    text-align: left;
+    margin-right: 0;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.home-posts ul {
+  margin: 3.2rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.home-posts ul li {
+  display: block; /* override .about social inline-block */
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-posts ul li {
+    margin: 1.6rem 0;
+  }
+
+  .home-posts .date {
+    display: block;
+    text-align: left;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768.1px) {
+  .home-posts ul:not(.pagination) li {
+    display: flex;
+  }
+}
+
+.home-posts .date {
+  display: inline-block;
+  flex: 1;
+  width: 20rem;
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.home-posts .title {
+  font-size: 1.8rem;
+  flex: 2;
+  font-weight: 700;
+}
