@@ -1,0 +1,24 @@
+/* Info size variants */
+h2.info {
+  transition: font-size 150ms ease;
+}
+
+h2.info--small {
+  font-size: 0.8rem !important;
+  line-height: 1;
+}
+
+h2.info--normal {
+  font-size: 1.2rem !important;
+  line-height: 1.5;
+}
+
+h2.info--large {
+  font-size: 1.6rem !important;
+  line-height: 1.6;
+}
+
+h2.info--xlarge {
+  font-size: 2rem !important;
+  line-height: 1.7;
+}

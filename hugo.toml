@@ -1,5 +1,5 @@
 baseurl = "http://mmudama.github.io/"
-title = "Monique Mudama"
+title = "Home"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -15,9 +15,13 @@ pagerSize = 20
 [markup.highlight]
 style = "github-dark"
 
+
 [params]
   author = "Monique Mudama"
-  #info = "Just a person on the internet"
+  titleIcon = "fa-solid fa-home"
+  info = "Brian Kernighan said, &quot;Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.&quot; This applies to every aspect of architecture."
+  infosize = "large"
+  # Not sure if description is even used?
   #description = "Testing this GitHub Pages thingie"
   keywords = ""
   #avatarurl = "images/avatar.jpg"
@@ -34,7 +38,7 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -50,15 +54,22 @@ style = "github-dark"
 #  icon = "fa fa-envelope fa-2x"
 #  weight = 1
 #  url = "<email address>"
+
+[[params.social]]
+  name = "Blog"
+  icon = "fas fa-pen-nib fa-2x"        # Font Awesome blog icon
+  weight = 10                  # Order in which it appears
+  url = "/posts/" # Replace with your blog URL
+
 [[params.social]]
   name = "LinkedIn"
   icon = "fa-brands fa-linkedin fa-2x"
-  weight = 1
+  weight = 20
   url = "https://www.linkedin.com/in/moniquemudama/"
 [[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
-  weight = 1
+  weight = 2
   url = "https://github.com/mmudama/"
 #[[params.social]]
 #  name = "Gitlab"
@@ -72,18 +83,18 @@ style = "github-dark"
 #  url = "https://twitter.com/johndoe/"
 
 # Menu links
-[[menu.main]]
-  name = "Posts"
-  weight = 1
-  url  = "posts/"
+#[[menu.main]]
+#  name = "Posts"
+#  weight = 1
+#  url  = "posts/"
 #[[menu.main]]
 #  name = "Tech"
 #  weight = 2
 #  url  = "tech/"
-[[menu.main]]
-  name = "About"
-  weight = 3
-  url = "about/"
+#[[menu.main]]
+#  name = "About"
+#  weight = 3
+#  url = "about/"
 
 
 [caches]
