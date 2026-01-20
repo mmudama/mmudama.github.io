@@ -1,9 +1,9 @@
 +++ 
 draft = false
 date = 2026-01-19T14:05:56-07:00
-title = "CAP Theorem - Partition is a verb, not a noun"
+title = "CAP Theorem - Partition is a verb"
 description = ""
-slug = ""
+slug = "cap-partitions"
 authors = []
 tags = []
 categories = []
