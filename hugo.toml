@@ -19,7 +19,7 @@ style = "github-dark"
 [params]
   author = "Monique Mudama"
   titleIcon = "fa-solid fa-home"
-  info = "&quot;Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.&quot; - Brian Kernighan"
+  info = "&quot;Everyone knows that debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?&quot; - Brian Kernighan, *The Elements of Programming Style*"
   infosize = "large"
   # Not sure if description is even used?
   #description = "Testing this GitHub Pages thingie"
