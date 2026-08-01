@@ -6,7 +6,7 @@ description = ""
 slug = "cap-partitions"
 authors = []
 tags = []
-categories = []
+categories = ["Engineering"]
 externalLink = ""
 series = []
 +++

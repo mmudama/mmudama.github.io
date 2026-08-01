@@ -6,7 +6,7 @@ description = "Keep It Simple, Stupid"
 slug = ""
 authors = []
 tags = []
-categories = []
+categories = ["Communication"]
 externalLink = ""
 series = []
 +++

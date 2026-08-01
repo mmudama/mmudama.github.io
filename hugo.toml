@@ -1,7 +1,7 @@
 baseurl = "http://mmudama.github.io/"
 title = "Monique Mudama"
 theme = "hugo-coder"
-languagecode = "en"
+locale = "en"
 defaultcontentlanguage = "en"
 
 
@@ -21,8 +21,8 @@ style = "github-dark"
 [params]
   author = "Monique Mudama"
   titleIcon = "fa-solid fa-home"
-  info = "&quot;Everyone knows that debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?&quot; - Brian Kernighan, *The Elements of Programming Style*"
-  infosize = "large"
+  #info = "&quot;Everyone knows that debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?&quot; - Brian Kernighan, *The Elements of Programming Style*"
+  info = "I make technology organizations smarter."
   # Not sure if description is even used?
   #description = "Testing this GitHub Pages thingie"
   keywords = ""
@@ -40,7 +40,7 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  customCSS = ["css/custom.css"]
+  #customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -68,11 +68,11 @@ style = "github-dark"
   icon = "fa-brands fa-linkedin fa-2x"
   weight = 20
   url = "https://www.linkedin.com/in/moniquemudama/"
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 2
-  url = "https://github.com/mmudama/"
+#[[params.social]]
+#  name = "Github"
+#  icon = "fa-brands fa-github fa-2x"
+#  weight = 2
+#  url = "https://github.com/mmudama/"
 #[[params.social]]
 #  name = "Gitlab"
 #  icon = "fa-brands fa-gitlab fa-2x"
@@ -85,18 +85,18 @@ style = "github-dark"
 #  url = "https://twitter.com/johndoe/"
 
 # Menu links
-#[[menu.main]]
-#  name = "Posts"
-#  weight = 1
-#  url  = "posts/"
-#[[menu.main]]
-#  name = "Tech"
-#  weight = 2
-#  url  = "tech/"
-#[[menu.main]]
-#  name = "About"
-#  weight = 3
-#  url = "about/"
+[[menu.main]]
+  name = "Communication"
+  weight = 1
+  pageRef = "/categories/communication"
+[[menu.main]]
+  name = "Engineering"
+  weight = 2
+  pageRef = "/categories/engineering"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  pageRef = "/about"
 
 
 [caches]

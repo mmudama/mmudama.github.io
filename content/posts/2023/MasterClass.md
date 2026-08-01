@@ -6,7 +6,7 @@ description = ""
 slug = ""
 authors = []
 tags = []
-categories = []
+categories = ["Communication"]
 externalLink = ""
 series = []
 +++

@@ -6,7 +6,7 @@ description = ""
 slug = ""
 authors = []
 tags = []
-categories = []
+categories = ["Engineering"]
 externalLink = ""
 series = ["MongoDB Config"]
 +++

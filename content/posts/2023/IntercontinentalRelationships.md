@@ -5,7 +5,7 @@ title = "How (not) to build good working relationships"
 slug = "" 
 authors = []
 tags = []
-categories = []
+categories = ["Communication"]
 externalLink = ""
 series = []
 +++

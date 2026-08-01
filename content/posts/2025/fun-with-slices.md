@@ -6,7 +6,7 @@ description = "Slices will surprise you"
 slug = ""
 authors = []
 tags = []
-categories = []
+categories = ["Engineering"]
 externalLink = ""
 series = []
 +++
