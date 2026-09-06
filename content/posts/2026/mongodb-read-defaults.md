@@ -1,6 +1,6 @@
 +++ 
-draft = true
-date = 2026-09-01T16:02:33-06:00
+draft = false
+date = 2026-09-06T06:02:33-06:00
 title = "It's 9pm. Do you know where your Mongo calls are going?"
 description = ""
 slug = ""
