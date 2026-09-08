@@ -25,7 +25,7 @@ Some years ago, I worked at a company that used MongoDB, hosted on Atlas[^atlas]
  But when I explored our dashboard in Atlas, that's not what I saw. Only the primary node was receiving traffic. The secondary nodes were acting as nothing more than hot backups. And that's when I began my education in how MongoDB reads and writes actually work.
 
 {{< center >}}
-![A woman standing in front of a whiteboard, question mark over her head, looking at a two-column list: Horizontal Scaling, Read Preference, Read Concern, Write Concern, Sharding.](/images/mongodb-settings-whiteboard.png)
+![Me standing in front of a whiteboard, question marks over my head, looking at a two-column list: Horizontal Scaling, Read Preference, Read Concern, Write Concern, Sharding.](/images/mongodb-settings-whiteboard.png)
 {{< /center >}}
 
 
