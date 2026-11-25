@@ -27,9 +27,10 @@ h3 { font-size: 1.25rem; }
 .site-header, .hero, .site-footer { background: var(--ink); color: var(--on-ink); }
 .nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 2rem; padding-top: 1.25rem; padding-bottom: 1.25rem; }
 .brand { font-size: 1.2rem; color: var(--on-ink); text-decoration: none; }
-.nav ul { display: flex; flex-wrap: wrap; align-items: center; gap: 1.75rem; list-style: none; margin: 0; padding: 0; }
-.nav li a { color: var(--on-ink); text-decoration: none; font-size: .9rem; font-weight: 500; padding: .3rem 0; border-bottom: 2px solid transparent; }
-.nav li a:hover, .nav li a[aria-current] { border-color: var(--opal); }
+/* Header and footer links */
+.nav-links { display: flex; flex-wrap: wrap; align-items: center; gap: 1.75rem; list-style: none; margin: 0; padding: 0; }
+.nav-links a { color: var(--on-ink); text-decoration: none; font-size: .9rem; font-weight: 500; padding: .3rem 0; border-bottom: 2px solid transparent; }
+.nav-links a:hover, .nav-links a[aria-current] { border-color: var(--opal); }
 
 /* Divider band, same gradient as the highlighted headline word */
 .divider { height: 8px; background: var(--opal-gradient); }
@@ -78,9 +79,15 @@ th, td { border: 1px solid var(--line); padding: .45rem .8rem; text-align: left;
 th { background: var(--soft); }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 
+.contact-form { display: flex; flex-direction: column; align-items: stretch; margin-top: 2rem; }
+.contact-form label { font: 600 .9rem Inter, system-ui, sans-serif; margin-bottom: .35rem; }
+.contact-form input, .contact-form textarea { font: inherit; color: var(--text); background: var(--card); border: 1px solid var(--muted); border-radius: 8px; padding: .6rem .8rem; margin-bottom: 1.25rem; }
+.contact-form textarea { resize: vertical; }
+.contact-form button { align-self: flex-start; font: 600 .95rem Inter, system-ui, sans-serif; color: var(--on-ink); background: var(--ink); border: 0; border-radius: 99px; padding: .75rem 1.5rem; cursor: pointer; }
+.contact-form :focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+
 .site-footer { color: var(--on-ink-muted); font-size: .8rem; padding: 1.75rem 0; }
-.footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; }
-.site-footer a { color: var(--opal); }
+.footer-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 2rem; }
 
 @media (max-width: 52rem) {
   .hero-grid, .about { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }

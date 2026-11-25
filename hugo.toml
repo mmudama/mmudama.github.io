@@ -17,6 +17,8 @@ style = "github-dark"
   author = "Monique Mudama"
   info = "I make technology organizations smarter."
   since = 2023
+  # Contact form key from web3forms.com. It is designed to be public.
+  web3formsKey = "caacd6b2-4967-4845-a9f6-47e9e31f7ff6"
 
 [taxonomies]
   category = "categories"
@@ -26,7 +28,7 @@ style = "github-dark"
 
 # Social links (shown in the footer)
 [[params.social]]
-  name = "Connect on LinkedIn"
+  name = "LinkedIn"
   url = "https://www.linkedin.com/in/moniquemudama/"
 
 # Menu links
@@ -38,6 +40,14 @@ style = "github-dark"
   name = "About"
   weight = 2
   pageRef = "/about"
+[[menu.main]]
+  name = "Contact"
+  weight = 3
+  pageRef = "/contact"
+[[menu.footer]]
+  name = "Contact"
+  weight = 1
+  pageRef = "/contact"
 
 
 [caches]
