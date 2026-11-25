@@ -11,14 +11,7 @@
         <p><a href="{{ .RelPermalink }}">Continue reading →</a></p>
         {{- end }}
       </div>
-      {{- end }}
-      <p class="actions">
-        <a class="button" href="{{ "posts/" | relURL }}">Read the blog</a>
-        {{- range site.Params.social }}
-        <a class="button ghost" href="{{ .url }}" rel="me">{{ .name }}</a>
-        {{- end }}
-      </p>
-    </div>
+      {{- end }}    </div>
     {{ partial "portrait.html" . }}
   </div>
 </section>

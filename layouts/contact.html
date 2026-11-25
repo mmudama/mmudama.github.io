@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "title-band.html" (dict "title" .Title "narrow" true) }}
+<div class="wrap narrow page prose">
+  {{ .Content }}
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+    <input type="hidden" name="access_key" value="{{ site.Params.web3formsKey }}">
+    <input type="hidden" name="subject" value="New message from {{ site.Title }}'s website">
+    <input type="hidden" name="redirect" value="{{ "email-success/" | absURL }}">
+
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" autocomplete="name" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="7" required></textarea>
+
+    <button type="submit">Send message</button>
+  </form>
+</div>
+{{ end }}
