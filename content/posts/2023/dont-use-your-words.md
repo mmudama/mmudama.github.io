@@ -2,7 +2,7 @@
 draft = false
 date = 2023-03-05T11:17:42-06:00
 title = "(Don't) use your words"
-description = "Keep It Simple, Stupid"
+description = "Early in my career, I took a class on written communication. I don't remember most of it, but one moment is seared in my memory."
 slug = ""
 authors = []
 tags = []

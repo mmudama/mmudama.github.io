@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "title-band.html" (dict "title" .Title "page" . "narrow" true) }}
+{{ if eq .Path "/about" }}
+<div class="wrap page about">
+  {{ partial "portrait.html" . }}
+  <article class="prose">
+    {{ .Content }}
+    {{- range site.Params.social }}
+    <p><a class="button" href="{{ .url }}" rel="me">{{ .name }}</a></p>
+    {{- end }}
+  </article>
+</div>
+{{ else }}
+<article class="wrap narrow page prose">
+  {{ .Content }}
+</article>
+{{ end }}
+{{ end }}

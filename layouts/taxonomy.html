@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ partial "title-band.html" (dict "title" .Title "narrow" true) }}
+<div class="wrap narrow page">
+  <ul>
+    {{- range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{- end }}
+  </ul>
+</div>
+{{ end }}

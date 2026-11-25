@@ -2,7 +2,7 @@
 draft = false
 date = 2023-02-19T16:52:24-06:00
 title = "A master class in persuasion"
-description = ""
+description = "I'd been looking forward to this trip for months. I'd already paid for the condo. I hadn't seen my friends in a year."
 slug = ""
 authors = []
 tags = []

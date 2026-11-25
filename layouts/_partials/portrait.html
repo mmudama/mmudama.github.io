@@ -1,0 +1,7 @@
+{{- with resources.Get "images/headshot.jpg" }}
+{{- $small := .Fill "400x400 Center q85" }}
+{{- $large := .Fill "800x800 Center q85" }}
+<figure class="portrait">
+  <img src="{{ $small.RelPermalink }}" srcset="{{ $large.RelPermalink }} 2x" width="400" height="400" alt="Portrait of {{ site.Params.author }}">
+</figure>
+{{- end }}

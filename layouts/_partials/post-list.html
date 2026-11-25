@@ -1,0 +1,14 @@
+<ul class="cards">
+  {{- range . }}
+  <li class="card">
+    <p class="meta">
+      {{- range first 1 (.GetTerms "categories") }}<span class="tag">{{ .LinkTitle }}</span>{{ end }}
+      {{- if not page.IsHome }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{- end }}
+    </p>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="excerpt">{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 170 }}{{ end }}</p>
+  </li>
+  {{- end }}
+</ul>

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      {{- $words := split site.Params.info " " }}
+      <h1>{{ delimit (first (sub (len $words) 1) $words) " " }} <em>{{ index (last 1 $words) 0 }}</em></h1>
+      {{- with site.GetPage "/about" }}
+      <div class="intro">
+        {{ .Summary }}
+        {{- if .Truncated }}
+        <p><a href="{{ .RelPermalink }}">Continue reading →</a></p>
+        {{- end }}
+      </div>
+      {{- end }}
+      <p class="actions">
+        <a class="button" href="{{ "posts/" | relURL }}">Read the blog</a>
+        {{- range site.Params.social }}
+        <a class="button ghost" href="{{ .url }}" rel="me">{{ .name }}</a>
+        {{- end }}
+      </p>
+    </div>
+    {{ partial "portrait.html" . }}
+  </div>
+</section>
+<div class="divider" aria-hidden="true"></div>
+<section class="wrap page">
+  <h2 class="section-title">Latest writing</h2>
+  {{ partial "post-list.html" (first 5 (where site.RegularPages "Section" "posts")) }}
+  <p class="more"><a href="{{ "posts/" | relURL }}">All posts →</a></p>
+</section>
+{{ end }}

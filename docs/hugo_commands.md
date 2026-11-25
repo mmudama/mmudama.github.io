@@ -65,7 +65,8 @@ hugo config
   - `posts/` - Blog posts organized by year
   - `tech/` - Technical documentation pages
 - `public/` - Generated static site (git ignored)
-- `themes/hugo-coder/` - Hugo Coder theme
+- `layouts/` - Page templates
+- `assets/` - Styles and the headshot
 - `hugo.toml` - Site configuration
 
 ## Quick Start

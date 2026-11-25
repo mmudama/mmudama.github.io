@@ -1,16 +1,11 @@
 baseurl = "http://mmudama.github.io/"
 title = "Monique Mudama"
-theme = "hugo-coder"
 locale = "en"
 defaultcontentlanguage = "en"
 
 
 [pagination]
 pagerSize = 20
-
-[services]
-#[services.disqus]
-#shortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -20,29 +15,8 @@ style = "github-dark"
 
 [params]
   author = "Monique Mudama"
-  titleIcon = "fa-solid fa-home"
-  #info = "&quot;Everyone knows that debugging is twice as hard as writing a program in the first place. So if you’re as clever as you can be when you write it, how will you ever debug it?&quot; - Brian Kernighan, *The Elements of Programming Style*"
   info = "I make technology organizations smarter."
-  # Not sure if description is even used?
-  #description = "Testing this GitHub Pages thingie"
-  keywords = ""
-  #avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
-
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-
   since = 2023
-
-  enableTwemoji = true
-
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  #customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
@@ -50,52 +24,19 @@ style = "github-dark"
   tag = "tags"
   author = "authors"
 
-# Social links
-#[[params.social]]
-#  name = "Email"
-#  icon = "fa fa-envelope fa-2x"
-#  weight = 1
-#  url = "<email address>"
-
+# Social links (shown as buttons on the home and About pages)
 [[params.social]]
-  name = "Blog"
-  icon = "fas fa-pen-nib fa-2x"        # Font Awesome blog icon
-  weight = 10                  # Order in which it appears
-  url = "/posts/" # Replace with your blog URL
-
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 20
+  name = "Connect on LinkedIn"
   url = "https://www.linkedin.com/in/moniquemudama/"
-#[[params.social]]
-#  name = "Github"
-#  icon = "fa-brands fa-github fa-2x"
-#  weight = 2
-#  url = "https://github.com/mmudama/"
-#[[params.social]]
-#  name = "Gitlab"
-#  icon = "fa-brands fa-gitlab fa-2x"
-#  weight = 2
-#  url = "https://gitlab.com/johndoe/"
-#[[params.social]]
-#  name = "Twitter"
-#  icon = "fa-brands fa-x-twitter fa-2x"
-#  weight = 3
-#  url = "https://twitter.com/johndoe/"
 
 # Menu links
 [[menu.main]]
-  name = "Communication"
+  name = "Blog"
   weight = 1
-  pageRef = "/categories/communication"
-[[menu.main]]
-  name = "Engineering"
-  weight = 2
-  pageRef = "/categories/engineering"
+  pageRef = "/posts"
 [[menu.main]]
   name = "About"
-  weight = 3
+  weight = 2
   pageRef = "/about"
 
 

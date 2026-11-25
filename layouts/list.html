@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $title := .Title }}
+{{ if eq .Path "/posts" }}{{ $title = "Blog" }}{{ end }}
+{{ partial "title-band.html" (dict "title" $title) }}
+<div class="wrap page">
+  {{ .Content }}
+  {{- $pager := .Paginate .RegularPages }}
+  {{ partial "post-list.html" $pager.Pages }}
+  {{- if gt $pager.TotalPages 1 }}
+  <p class="pager">
+    {{ with $pager.Prev }}<a href="{{ .URL }}">← Newer</a>{{ end }}
+    {{ with $pager.Next }}<a href="{{ .URL }}">Older →</a>{{ end }}
+  </p>
+  {{- end }}
+</div>
+{{ end }}

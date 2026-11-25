@@ -1,0 +1,17 @@
+{{- /* Page heading banner. Takes "title", plus optional "narrow", "page" (adds post details) and "homeLink". */ -}}
+<header class="hero title-band">
+  <div class="wrap{{ if .narrow }} narrow{{ end }}">
+    <h1>{{ .title }}</h1>
+    {{- with .page }}{{ if eq .Section "posts" }}
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{- range .GetTerms "categories" }} · <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+      · {{ .ReadingTime }} min read
+    </p>
+    {{- end }}{{ end }}
+    {{- if .homeLink }}
+    <p><a href="{{ "/" | relURL }}">Go to the home page →</a></p>
+    {{- end }}
+  </div>
+</header>
+<div class="divider" aria-hidden="true"></div>

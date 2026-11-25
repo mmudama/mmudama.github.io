@@ -2,6 +2,7 @@
 draft = false
 date = 2023-02-05T16:39:08-06:00
 title = "How (not) to build good working relationships"
+description = "A few years ago, I was assigned to a project that required significant work from two teams. I was part of a team in the US. The other team was in India."
 slug = "" 
 authors = []
 tags = []

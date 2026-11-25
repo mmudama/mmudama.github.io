@@ -2,7 +2,7 @@
 draft = false
 date = 2026-09-06T06:02:33-06:00
 title = "It's 9pm. Do you know where your Mongo calls are going?"
-description = ""
+description = "Some years ago, I worked at a company that used MongoDB, hosted on Atlas. We had a multi-node replica set, so we thought we had horizontal scaling covered."
 slug = ""
 authors = []
 tags = []
