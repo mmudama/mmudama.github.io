@@ -24,7 +24,7 @@ style = "github-dark"
   tag = "tags"
   author = "authors"
 
-# Social links (shown as buttons on the home and About pages)
+# Social links (shown in the footer)
 [[params.social]]
   name = "Connect on LinkedIn"
   url = "https://www.linkedin.com/in/moniquemudama/"

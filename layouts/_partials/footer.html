@@ -1,3 +1,8 @@
 <footer class="site-footer">
-  <div class="wrap">© {{ with site.Params.since }}{{ . }}–{{ end }}{{ now.Year }} {{ site.Params.author }}</div>
+  <div class="wrap footer-row">
+    <span>© {{ with site.Params.since }}{{ . }}–{{ end }}{{ now.Year }} {{ site.Params.author }}</span>
+    {{- range site.Params.social }}
+    <a href="{{ .url }}" rel="me">{{ .name }}</a>
+    {{- end }}
+  </div>
 </footer>

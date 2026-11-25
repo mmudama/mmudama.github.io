@@ -18,7 +18,7 @@ h2, h3 { margin: 1.8em 0 .6em; }
 h1 { font-size: 2.6rem; letter-spacing: -.02em; margin: 0; }
 h2 { font-size: 1.6rem; }
 h3 { font-size: 1.25rem; }
-.nav, .meta, .button, .site-footer, .pager { font-family: Inter, system-ui, sans-serif; }
+.nav, .meta, .site-footer, .pager { font-family: Inter, system-ui, sans-serif; }
 
 .wrap { width: 100%; max-width: 70rem; margin: 0 auto; padding: 0 1.5rem; }
 .narrow { max-width: 46rem; }
@@ -40,10 +40,6 @@ h3 { font-size: 1.25rem; }
 .hero em { font-style: normal; background: var(--opal-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .intro { max-width: 40rem; font-size: 1.15rem; line-height: 1.55; color: var(--on-ink-muted); margin-top: 1rem; }
 .intro p { margin: 0 0 .6rem; }
-.actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.25rem 0 0; }
-.button { display: inline-block; background: var(--ink); color: var(--on-ink); border: 1px solid var(--ink); font-size: .9rem; font-weight: 600; text-decoration: none; padding: .7rem 1.35rem; border-radius: 99px; }
-.hero .button { background: var(--opal); border-color: var(--opal); color: #07211d; }
-.hero .button.ghost { background: transparent; color: var(--on-ink); border-color: #5d7598; }
 
 .portrait { margin: 0; width: 100%; max-width: 21.5rem; }
 .portrait img { display: block; width: 100%; aspect-ratio: 1; border-radius: 50%; }
@@ -83,6 +79,8 @@ th { background: var(--soft); }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 
 .site-footer { color: var(--on-ink-muted); font-size: .8rem; padding: 1.75rem 0; }
+.footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; }
+.site-footer a { color: var(--opal); }
 
 @media (max-width: 52rem) {
   .hero-grid, .about { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
