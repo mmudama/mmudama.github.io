@@ -1,8 +1,8 @@
 +++ 
 draft = true
-date = 2026-09-20T16:54:34-06:00
-title = ""
-description = ""
+date = 2026-11-27T15:00:34-06:00
+title = "Your Boss is a Generalist"
+description = "My mentor had just come out of a two day strategic planning session with her board. The CEO was asking for votes, but he left empty handed."
 slug = ""
 authors = []
 tags = []
@@ -11,14 +11,10 @@ externalLink = ""
 series = []
 +++
 
-One of my mentors, a former executive and current board member, was telling me about a recent strategic planning session. A CEO had come to the board asking for a vote, but she said they couldn't make progress. The CEO left empty-handed - the board couldn't approve his requests because they couldn't understand the situation.
+My mentor had just come out of a two day strategic planning session with her board. The CEO was asking for votes, but he left empty handed. The board overwhelmingly responded that they couldn't approve his requests - they wanted to help, but they couldn't understand what he was asking for. What a waste of time. What a wasted opportunity.
 
-At any level, the person above you in the hierarchy is a generalist. If you want to be successful, it's your job to make it easy for them to understand the situation in their terms. That means putting yourself in their shoes and understanding their perspective - what they care about; what information they need in order to make an informed decision. You need to ruthlessly cut any detail that distracts from your core narrative.
+No matter if you're a software engineer or a CEO, you'll be more successful if you speak in terms that your audience will understand. It's [in your own best interest]({{< relref "dont-use-your-words" >}}) to make it easy for them. The people above you are not idiots, and simplifying the story is not pandering. Your area of responsibility, your corner of the business, is only one of many concerns they're juggling. They're not experts, and you shouldn't expect them to be. It's tempting to show how hard you worked - to walk them through the process; to enumerate all of the options you considered. Don't do that. Give them the top two contenders. Give them the bottom line. Don't give them details unless they ask. If they don't understand a request, the answer will always be "No."
 
-That's not pandering, and it's not that they're idiots. It's recognizing that you are the expert, and your area of expertise is only one of the many other concerns they're juggling. Whether you're the expert on your software system, your product, or even your company, if you want to be successful, you have to learn how to explain it. How to make it relevant.
+I said as much to my mentor. People above you are generalists. You need to put yourself in their shoes. You need to understand what matters to them. Ruthlessly cut everything else.
 
-
-https://claude.ai/chat/2668808c-2a01-4da5-8dde-b1569ef3725e
-
-
-* Counter example: Josh's request for a diagram, intent to demonstrate how messy the system is, but a correct diagram didn't demonstrate it - wrong example
+ She agreed. In fact, she planned to use my wording when she followed up with the CEO.
