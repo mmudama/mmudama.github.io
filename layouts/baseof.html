@@ -16,8 +16,12 @@
   <meta property="og:description" content="{{ $desc }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  {{- with .Params.images }}
+  <meta property="og:image" content="{{ index . 0 | absURL }}">
+  {{- else }}
   {{- with resources.Get "images/headshot.jpg" }}
   <meta property="og:image" content="{{ (.Fill "600x600 Center q85").Permalink }}">
+  {{- end }}
   {{- end }}
   <link rel="icon" type="image/svg+xml" href="{{ "img/favicon.svg" | relURL }}">
   {{- range .AlternativeOutputFormats }}
