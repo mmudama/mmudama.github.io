@@ -15,7 +15,7 @@ Early in my career, I took a class on written communication. I don't remember mo
 
 That just didn't sit right. I kept arguing. He finally said, "If you really want to use those obscure words, save them for your poetry!" Ouch. In retrospect, he probably didn't say it that harshly - but that's how I heard it. I was proud of my vocabulary. I didn't see why I should limit myself to the words that other people knew.
 
-While I was fixated on word choice, it was only a small part of his overall message. His point was this: Whether you're speaking or writing, it's your job to make yourself understood. If my audience doesn't understand me, it's my fault - not theirs. And no matter how smart they are - no matter how well they speak the language - it will always be easier to read simple sentences and familiar words.*
+While I was fixated on word choice, it was only a small part of his overall message. His point was this: Whether you're speaking or writing, it's your job to make yourself understood. If my audience doesn't understand me, it's my fault - not theirs. And no matter how smart they are - no matter how well they speak the language - it will always be easier to read simple sentences and familiar words.[^1]
 
 To be successful, I need to keep my audience in mind. At my first job, all of my co-workers grew up speaking American English. That certainly made it easier to communicate. These days, English may be my co-workers' second (or third) language, or they may have grown up with a form of English that sounds a bit different than my own. I love to play with language - but if the joke doesn't land, it only wastes time and adds confusion. 
 
@@ -23,6 +23,6 @@ When I'm communicating with people above me in the org chart, I have an addition
 
 I have to admit … these days, I'm a bit of a generalist.  It's hard to find the time to read through a long document filled with unnecessary jargon. And I really appreciate it when people know how to keep it simple.
 
-\* This seems similar to what Brian Kernighan wrote in The Elements of Programming Style: "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?"
+[^1]: This seems similar to what Brian Kernighan wrote in The Elements of Programming Style: "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?"
 
 *Originally posted on Substack*
